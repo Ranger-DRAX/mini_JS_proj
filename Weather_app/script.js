@@ -1,9 +1,11 @@
-const apiKey = 'a8da43dcacmsh1a70327b13d68d6p1cf984jsna6e7ca53fbcc'; // Replace with your actual API key
+const apiKey = '**************************'; 
 const apiUrl = 'https://open-weather13.p.rapidapi.com/city/';
 
 const searchBox = document.getElementById('city-input');
 const searchBtn = document.getElementById('search-btn');
 const weatherIcon = document.querySelector('.weather-icon');
+
+
 
 // Function to fetch weather data
 async function fetchWeather(city) {
